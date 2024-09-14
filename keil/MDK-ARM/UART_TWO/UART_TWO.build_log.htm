@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 软件管家 软件管家, 软件管家, LIC=03C6R-KHHFT-KPPZY-I4Z74-2AWNQ-R9D0M
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\softs\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\STM32\UART_TWO\MDK-ARM\UART_TWO.uvprojx
+Project File Date:  07/10/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\softs\Keil\ARM\ARMCC\Bin'
+Build target 'UART_TWO'
+compiling main.c...
+../Core/Src/main.c(57): warning:  #1295-D: Deprecated declaration get_message - give arg types
+  char* get_message();
+../Core/Src/main.c(155): warning:  #550-D: variable "test_zuobiao"  was set but never used
+  		int* test_zuobiao;
+../Core/Src/main.c(680): warning:  #177-D: variable "remember_end"  was declared but never referenced
+  	int remember_end;
+../Core/Src/main.c(752): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		servo = ((theta*180/
+i)*2000)/180 + 500;
+../Core/Src/main.c(756): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		servo = ((theta*180/
+i)*2000)/180 + 500;
+../Core/Src/main.c(760): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		servo = ((theta*180/
+i)*2000)/270 + 1500;
+../Core/Src/main.c(764): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		servo = ((theta*180/
+i)*2000)/180 + 500;
+../Core/Src/main.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=26074 RO-data=1770 RW-data=28 ZI-data=2476  
+FromELF: creating hex file...
+"UART_TWO\UART_TWO.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32H7xx_DFP.3.1.1.pack
+                Keil.STM32H7xx_DFP.3.1.1
+                STMicroelectronics STM32H7 Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_UART_TWO
+  D:\softs\Keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  D:\softs\Keil\ARM\PACK\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:14
+</pre>
+</body>
+</html>
